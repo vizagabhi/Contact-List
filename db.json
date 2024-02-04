@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Abhishek Kumar",
+      "age": 25,
+      "email": "abhi@gmail.com",
+      "phone": "9090909090"
+    },
+    {
+      "id": "2",
+      "name": "Atul Kumar",
+      "age": 23,
+      "email": "atul@yahoo.com",
+      "phone": "8080808080"
+    },
+    {
+      "id": "3",
+      "name": "Raunak Kumar",
+      "age": 20,
+      "email": "raunak@outlook.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "4",
+      "name": "Jay Kumar",
+      "age": 16,
+      "email": "jay@cn.com",
+      "phone": "9785361205"
+    },
+    {
+      "id": "5",
+      "name": "Jaya Kumari",
+      "age": 12,
+      "email": "jaya@utube.com",
+      "phone": "7654329870"
+    },
+    {
+      "id": "2014",
+      "name": "Mithu Kumari",
+      "age": 16,
+      "email": "mithu@utube.com",
+      "phone": "3456754321"
+    }
+  ]
+}
