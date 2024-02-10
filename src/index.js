@@ -2,24 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import ContactList from './components/ContactList';
-import AddUserForm from './components/AddUserForm';
-// import UpdateUserForm from './UpdateUserForm';
-import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
-
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<ContactList />} >
-        <Route path="add" element={<AddUserForm />} />
-    </Route>
-      
-  )
-)  
+import { BrowserRouter, Route , Routes } from 'react-router-dom';
+import ViewDetail from './pages/ViewDetail';
+import AddDetail from './pages/AddDetail';
+import UpdateDetail from './pages/UpdateDetail';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router}/>
-  </React.StrictMode>
+  
+    <BrowserRouter>
+        <Routes>
+            <Route path='/' element={<App/>} />
+            <Route path='/view/:id' element={<ViewDetail/>} />
+            <Route path='/add-detail' element={<AddDetail/>} />
+            <Route path='/update-detail/:id' element={<UpdateDetail/>} />
+       </Routes>
+    </BrowserRouter>
+  
 );
 

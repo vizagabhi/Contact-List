@@ -17,3 +17,5 @@ To run the Contact Manager app locally, follow these steps:
 
 ```bash
 git clone <https://github.com/vizagabhi/contact-list>
+
+Running JSON-Server command: json-server db.json --port 3031

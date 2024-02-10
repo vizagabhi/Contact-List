@@ -30,16 +30,16 @@
     },
     {
       "id": "5",
-      "name": "Jaya Kumari",
+      "name": "Jaya",
       "age": 12,
       "email": "jaya@utube.com",
       "phone": "7654329870"
     },
     {
       "id": "2014",
-      "name": "Mithu Kumari",
+      "name": "Bob-Marley",
       "age": 16,
-      "email": "mithu@utube.com",
+      "email": "bob@utube.com",
       "phone": "3456754321"
     }
   ]
