@@ -16,7 +16,7 @@ root.render(
             <Route path='/view/:id' element={<ViewDetail/>} />
             <Route path='/add-detail' element={<AddDetail/>} />
             <Route path='/update-detail/:id' element={<UpdateDetail/>} />
-       </Routes>
+        </Routes>
     </BrowserRouter>
   
 );

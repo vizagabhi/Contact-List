@@ -1,46 +1,32 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Abhishek Kumar",
-      "age": 25,
-      "email": "abhi@gmail.com",
-      "phone": "9090909090"
+      "id": "4f6d",
+      "name": "Abhishek",
+      "email": "abhi@cn.com",
+      "age": "25",
+      "phone": "9898989898"
     },
     {
-      "id": "2",
-      "name": "Atul Kumar",
-      "age": 23,
-      "email": "atul@yahoo.com",
-      "phone": "8080808080"
+      "id": "3211",
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "age": "23",
+      "phone": "9382456375"
     },
     {
-      "id": "3",
-      "name": "Raunak Kumar",
-      "age": 20,
-      "email": "raunak@outlook.com",
-      "phone": "9876543210"
+      "id": "d5c0",
+      "name": "Sheldon",
+      "email": "cooper@gmail.com",
+      "age": "30",
+      "phone": "8394053945"
     },
     {
-      "id": "4",
-      "name": "Jay Kumar",
-      "age": 16,
-      "email": "jay@cn.com",
-      "phone": "9785361205"
-    },
-    {
-      "id": "5",
-      "name": "Jaya",
-      "age": 12,
-      "email": "jaya@utube.com",
-      "phone": "7654329870"
-    },
-    {
-      "id": "2014",
-      "name": "Bob-Marley",
-      "age": 16,
-      "email": "bob@utube.com",
-      "phone": "3456754321"
+      "id": "2af4",
+      "name": "Harry",
+      "email": "harry@gmail.com",
+      "age": "23",
+      "phone": "9201865458"
     }
   ]
 }
