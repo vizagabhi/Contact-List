@@ -13,9 +13,34 @@ The Contact Manager app is a simple web application built using React. It allows
 
 To run the Contact Manager app locally, follow these steps:
 
-1. Clone this repository:
+## Installation
+
+Install my-project with npm
 
 ```bash
-git clone <https://github.com/vizagabhi/contact-list>
+  npm install my-project
+  cd my-project
+  npm start
+```
 
 Running JSON-Server command: json-server db.json --port 3031
+
+## Endpoints
+1.Fetches and displays a list of users: GET:</users>
+
+2.Allows users to add a new contact: POST :</users>
+
+3.Allows users to update an existing contact: PUT :</users/userid>
+
+4.Allows users to delete a contact: DELETE :</users/userid>
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run build
+```
+
+## Hosted URL
+<https://react-contact-icni.onrender.com>
